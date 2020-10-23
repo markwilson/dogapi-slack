@@ -5,7 +5,7 @@ on:
     - cron: "0 12 * * 1-5"
 
 jobs:
-  joke:
+  dog:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
